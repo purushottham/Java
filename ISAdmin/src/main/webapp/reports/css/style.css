@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Common Css Start here ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+*{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+a, a:active, a:hover, a:focus{
+    outline: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: underline;
+}
+a:active, a:focus, a:hover
+{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+.disabled{
+    opacity: 0.5;
+    pointer-events: none;
+}
+select::-ms-expand {
+    display: none;
+}
+.img-responsive
+{
+    margin: auto;
+}
+textarea, textArea {
+    max-width: 100%;
+}
+html, body {
+    min-height: 100%;
+    background-color: #F5F5F5;
+}
+a, button, select {
+    cursor: pointer;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Common Css End here ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+iframe {
+    max-width: 100%;
+    border: none;
+    width: 100%;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Login Css Start here ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.error {
+    margin-bottom: 10px;
+    color: #a94442;
+}
+
+.msg {
+    margin-bottom: 10px;
+    color: #31708f;
+}
+
+#login-box {
+    width: 480px;
+    margin: 150px auto;
+    background: #dedede;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+.loginContainer {
+    padding: 50px 66px;
+}
+.container {
+    max-width: 1280px;
+    margin: auto;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.loginTitle {
+    color: #4d4d4d;
+    font-size: 16px;
+    margin: 15px 0px;
+}
+.login-input {
+    background: #fff;
+    color: #8b8b8b;
+    font-size: 14px;
+    line-height: 18px;
+    border: none;
+    width: 100%;
+    padding: 10px 5px;
+    width: 338px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.5px;
+}
+.form-group {
+    margin-bottom: 15px;
+    display: block;
+}
+.submit-btn {
+    background: #70ac00;
+    border: none;
+    display: block;
+    color: #fff;
+    width: 100%;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.adminLContainer {
+    position: relative;
+}
+.adminLogo {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.loginImgBlock img {
+    display: block;
+    margin: 10% auto 5%;
+}
+
+.feedback {
+    color: red;
+    text-transform: uppercase;
+}
+.submit-btn.login-link {
+    max-width: 150px;
+    font-weight: bold;
+    margin: 20px auto;
+    text-decoration: none;
+}
+.deniedUserBlock {
+    text-align: center;
+    margin: 100px auto;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Login Css End here ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ header Css start here ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.nav li {
+    display: inline-block;
+    padding: 4px 0px 8px 4px;
+}
+.headerContainer {
+    background: #4d4d4f;
+    font-size: 0px;
+}
+.nav ul {
+    text-align: right;
+    margin: auto;
+}
+.nav li a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    display: block;
+    line-height: 18px;
+    padding: 5px 10px;
+}
+.nav li.active a, .nav li:hover a {
+    background: #fff;
+    color: #000;
+}
+.headerLeftBlock {
+    width: 30%;
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 48px;
+    margin-bottom: 5px;
+}
+.headerRightBlock {
+    width: 70%;
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.userDetailsBlock {
+    margin: auto;
+    text-align: right;
+}
+.userDetailsBlock h4 {
+    display: inline-block;
+    color: #fff;
+    font-weight: normal;
+}
+.userDetailsBlock h4 span {
+    font-weight: bold;
+}
+
+.logout {
+    border: none;
+    padding: 5px 0px 1px;
+    background: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    outline: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.logout:hover {
+    border-color: rgba(255,255,255,0.7);
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ header Css End here ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Dashboard Css Start here ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.pageTitle {
+    margin: 0px 5px;
+}
+.sectionTitle {
+    padding-left: 15px;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Dashboard Css End here ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+

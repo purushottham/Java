@@ -1,0 +1,18 @@
+<div class="headerContainer" ng-controller="reportsController">
+    <div class="container">
+        <div class="headerLeftBlock"><img src="reports/images/header-logo.png" alt="intellasphere" /></div>
+        <div class="headerRightBlock">
+            <nav class="nav">
+                <div class="userDetailsBlock">
+                    <h4><span>Welcome :</span> {{adminDetails.userName}} | </h4>
+                    <button class="logout" ng-click="formSubmit()"> Logout ?</button>
+                </div>
+                <ul>
+                <li ng-repeat="reportTab in reportLink" 
+                ng-click="setReportLink(reportTab)" ng-class="{active:isActiveReportTab(reportTab)}"  ><a ui-sref="{{reportTab.url}}">{{reportTab.title}}</a>
+                </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>

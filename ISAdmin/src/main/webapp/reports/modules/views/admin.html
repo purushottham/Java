@@ -1,0 +1,16 @@
+<div resize>  
+<!--    <div ng-include="'reports/modules/views/header.html'"></div>-->
+    <div ng-if="currentreportTab  === 'Dashboard'">
+        <h3 class="sectionTitle">Dashboard</h3>
+    </div>
+        <div ng-if="currentreportTab  === 'PaidAccounts'">
+        <h3 class="sectionTitle">Paid Accounts</h3>
+    </div>
+        <div ng-if="currentreportTab  === 'TrialAccounts'">
+        <h3 class="sectionTitle">Trial Accounts</h3>
+    </div>
+        <div ng-if="currentreportTab  === 'CustomersInformation'">
+        <h3 class="sectionTitle">Customers Information</h3>
+    </div>
+    <iframe width='100%' ng-src="{{currentreportUrl}}" ng-style="{height: iframeHeight }"></iframe>
+</div>
